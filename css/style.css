@@ -1,61 +1,59 @@
-body{
-    font-family:outfit;
-    font-size: 15px;
-    background-color: hsl(212, 45%, 89%);
-    height: 100vh;
-    /* width: 100vw; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+body {
+  font-family: outfit;
+  font-size: 15px;
+  /*background-color: hsl(212, 45%, 89%);*/
+  height: 100vh;
+  /* width: 100vw; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-img{
-    width: 288px;
-    height: 288px;
-    position: absolute;
-    top: 10px;
-    left: 18px;
-    border-radius: 10px;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* align-content: center; */
+img {
+  width: 288px;
+  height: 288px;
+  position: absolute;
+  top: 10px;
+  left: 18px;
+  border-radius: 10px;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* align-content: center; */
 
-    /* overflow: hidden; */
+  /* overflow: hidden; */
 }
 
-
-
-.container{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 499px;
-    width: 322px;
-    background-color: white;
-    border-radius: 20px;
-    overflow: hidden;
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 499px;
+  width: 322px;
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
-.card-body{
-    position: absolute;
-    width: 288px;
-    height: 131px;
-    margin-top: 250px;
-    text-align: center;
-    font-size: 1.3rem;
-    color: #1F314F;
-    font-weight: bold;
-    /* margin-left: 16px; */
-    /* margin-right: 16px; */
+.card-body {
+  position: absolute;
+  width: 288px;
+  height: 131px;
+  margin-top: 250px;
+  text-align: center;
+  font-size: 1.3rem;
+  color: #1f314f;
+  font-weight: bold;
+  /* margin-left: 16px; */
+  /* margin-right: 16px; */
 }
 
-.card-footer{
-    margin-top: 20px;
-    font-size: 1rem;
-    color: #68778D;
-    font-weight: normal;
+.card-footer {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #68778d;
+  font-weight: normal;
 }
+
